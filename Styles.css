@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+
+  /* Margin and Flexbox Section */
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .flex-item {
+    flex: 1;
+    border: 2px solid #3498db;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  /* Margin and Text Section */
+  .text-margin-section {
+    margin-bottom: 20px;
+  }
+
+  /* Margin and Images Section */
+  .image-container {
+    margin-bottom: 20px;
+  }
+
+  .image-with-margin {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid transparent;
+    max-width: 100%;
+  }
+
+  /* Margin and Positioning Section */
+  .positioning-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .positioned-element {
+    color: #e74c3c;
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #2ecc71;
+    padding: 20px;
+    margin: 10px;
+  }
